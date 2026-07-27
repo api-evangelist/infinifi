@@ -1,9 +1,28 @@
 aid: infinifi
 name: Infinifi
-description: 'Infinifi is a company surfaced as a portfolio company of electric-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: defi. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  infiniFi (InfiniFi Labs) is a DeFi protocol that amplifies returns on existing
+  DeFi yield platforms — Pendle, Ethena, AAVE, and others it calls "farms" — by
+  applying fractional-reserve banking principles on-chain. Users deposit USDC to
+  mint iUSD (a receipt token), then stake it for siUSD (liquid yield) or lock it
+  for liUSD (illiquid yield plus governance). liUSD holders govern capital
+  allocation across liquid, maturity, and protocol farms through allocation
+  voting weighted by locked amount and unwinding period. The protocol is a set of
+  timelock-governed, audited Solidity smart contracts (Core, Gateway, Funding,
+  Locking, YieldSharing, FarmRegistry) on Ethereum, backed by Electric Capital.
 url: https://raw.githubusercontent.com/api-evangelist/infinifi/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://mintcdn.com/infinifilabs/JYcLgE1IiIxtnYkz/logo/light.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +31,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Defi
+- Stablecoin
+- Yield
+- Ethereum
+- Smart Contracts
+- Fractional Reserve
+- Governance
+- Pendle
+- Ethena
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,38 @@ maintainers:
 common:
 - type: Website
   url: https://infinifi.xyz/
+- type: DeveloperPortal
+  url: https://docs.infinifi.xyz/
+- type: Documentation
+  url: https://docs.infinifi.xyz/
+- type: APIReference
+  url: https://docs.infinifi.xyz/dev-docs/api-documentation
+- type: GettingStarted
+  url: https://docs.infinifi.xyz/deposit-quickstart
+- type: Whitepaper
+  url: https://docs.infinifi.xyz/whitepaper
+- type: GitHubOrganization
+  url: https://github.com/InfiniFi-Labs
+- type: Support
+  url: https://discord.gg/infinifi
+- type: Twitter
+  url: https://x.com/infinifi
+- type: SignUp
+  url: https://app.infinifi.xyz
+- type: ChangeLog
+  url: https://docs.infinifi.xyz/dev-docs/changelog
+- type: ChangeLog
+  url: changelog/infinifi-changelog.yml
+- type: Security
+  url: https://docs.infinifi.xyz/audits
+- type: VulnerabilityDisclosure
+  url: security/infinifi-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/infinifi-domain-security.yml
+- type: LLMsTxt
+  url: llms/infinifi-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

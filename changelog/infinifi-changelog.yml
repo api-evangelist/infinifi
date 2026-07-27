@@ -1,0 +1,55 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.infinifi.xyz/dev-docs/changelog
+docs: https://docs.infinifi.xyz/dev-docs/changelog
+description: >-
+  infiniFi publishes a dated protocol changelog covering on-chain governance
+  actions (Timelock and Multisig operations), farm additions/deprecations,
+  contract upgrades, and reward-multiplier changes. Entries are dated rather
+  than semantically versioned — the protocol is a set of upgradeable smart
+  contracts governed by timelocks, not a versioned REST API. This captures the
+  recent window; the live changelog is the source of truth.
+versioning:
+  scheme: dated protocol changelog (on-chain governance actions)
+  detail: Contract upgrades executed via 1-day and 7-day timelocks; 4/7 multisig.
+entries:
+- date: '2025-07-02'
+  type: farm-change
+  highlights:
+  - Add 3 new Pendle Farms (PT USR 04 Sep 2025, PT wstUSR 25 Sep 2025, PT slvlUSD 25 Sep 2025)
+  - Deprecate matured/empty PT-cUSDO farm
+- date: '2025-06-16'
+  type: governance
+  highlights:
+  - Short Timelock — set locked-iUSD reward multipliers to [1.435 ... 1.636]
+- date: '2025-06-14'
+  type: upgrade
+  breaking: true
+  highlights:
+  - Long Timelock — upgrade YieldSharing contract
+  - siUSD yield now distributed over 8-hour epochs (was 7 days)
+  - Broke ERC4626 compatibility of siUSD — staking/unstaking now must go through the Gateway
+- date: '2025-06-13'
+  type: farm-change
+  highlights:
+  - Add Spark sUSDC liquid farm and PT-USDS-14AUG2025 illiquid farm (max slippage 0.1%)
+- date: '2025-06-07'
+  type: parameter-change
+  highlights:
+  - Decrease Pendle farm max slippage from 0.5% to 0.1%-0.3% (improved yield interpolation)
+- date: '2025-06-01'
+  type: governance
+  highlights:
+  - Short Timelock — set locked-iUSD reward multipliers to [1.808 ... 2.061]
+- date: '2025-05-30'
+  type: treasury
+  highlights:
+  - Multisig — pull undeployed USDC from paused PT-cUSDO-19JUN2025 farm
+- date: '2025-05-29'
+  type: risk
+  highlights:
+  - Pause PT-cUSDO-19JUN2025 farm (thin USDO liquidity, overpeg conditions)
+- date: '2025-05-27'
+  type: launch
+  highlights:
+  - "\U0001F680 Gated launch — infiniFi goes live"

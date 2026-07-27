@@ -1,0 +1,52 @@
+# infiniFi Documentation
+
+## Docs
+
+- [Security](https://docs.infinifi.xyz/audits.md): External verification, monitoring, bug bounty, and contract governance information for infiniFi.
+- [Deposit Quickstart](https://docs.infinifi.xyz/deposit-quickstart.md): How to deposit USDC and get iUSD - Agent Quickstart Guide
+- [API Documentation](https://docs.infinifi.xyz/dev-docs/api-documentation.md): External API endpoints and data access
+- [Changelog](https://docs.infinifi.xyz/dev-docs/changelog.md): Protocol updates and changes
+- [Contract Addresses](https://docs.infinifi.xyz/dev-docs/contracts.md): Deployed contract addresses for infiniFi on all networks
+- [Core](https://docs.infinifi.xyz/dev-docs/core.md): Central authority and role-based access control
+- [CoreControlled.sol](https://docs.infinifi.xyz/dev-docs/core/core-controlled.md): Base contract for role-based access control
+- [InfiniFiCore.sol](https://docs.infinifi.xyz/dev-docs/core/infinifi-core.md): Central role registry for the infiniFi protocol
+- [Finance](https://docs.infinifi.xyz/dev-docs/finance.md): Yield distribution and accounting
+- [Accounting.sol](https://docs.infinifi.xyz/dev-docs/finance/accounting.md): Protocol accounting and NAV calculations
+- [YieldSharing.sol](https://docs.infinifi.xyz/dev-docs/finance/yield-sharing.md): Yield distribution to stakers and lockers
+- [Funding](https://docs.infinifi.xyz/dev-docs/funding.md): Mint and redeem controllers
+- [MintController.sol](https://docs.infinifi.xyz/dev-docs/funding/mint-controller.md): Controls iUSD minting operations
+- [RedeemController.sol](https://docs.infinifi.xyz/dev-docs/funding/redeem-controller.md): Controls iUSD redemption operations
+- [RedemptionPool.sol](https://docs.infinifi.xyz/dev-docs/funding/redemption-pool.md): Manages the redemption queue
+- [Gateway](https://docs.infinifi.xyz/dev-docs/gateway.md): Entry point for user interactions
+- [InfiniFiGatewayV1.sol](https://docs.infinifi.xyz/dev-docs/gateway/infinifi-gateway-v1.md): Main gateway for user interactions
+- [Governance](https://docs.infinifi.xyz/dev-docs/governance.md): Protocol governance and timelocks
+- [AllocationVoting.sol](https://docs.infinifi.xyz/dev-docs/governance/allocation-voting.md): Farm allocation voting system
+- [MinorRolesManager.sol](https://docs.infinifi.xyz/dev-docs/governance/minor-roles-manager.md): Management of non-critical roles
+- [Timelock.sol](https://docs.infinifi.xyz/dev-docs/governance/timelock.md): Delayed execution for governance actions
+- [Integrations](https://docs.infinifi.xyz/dev-docs/integrations.md): Farm integrations and registry
+- [Farm.sol](https://docs.infinifi.xyz/dev-docs/integrations/farm.md): Base contract for farm integrations
+- [FarmRegistry.sol](https://docs.infinifi.xyz/dev-docs/integrations/farm-registry.md): Central registry of all farms
+- [Farms](https://docs.infinifi.xyz/dev-docs/integrations/farms.md): Specific farm implementations
+- [Locking](https://docs.infinifi.xyz/dev-docs/locking.md): Lock and unlock iUSD positions
+- [LockingController.sol](https://docs.infinifi.xyz/dev-docs/locking/locking-controller.md): Manages iUSD lock operations
+- [UnwindingModule.sol](https://docs.infinifi.xyz/dev-docs/locking/unwinding-module.md): Handles the unbonding process
+- [Roles Documentation](https://docs.infinifi.xyz/dev-docs/roles-documentation.md): Protocol roles and permissions
+- [Developer Summary](https://docs.infinifi.xyz/dev-docs/summary.md): High-level overview of the infiniFi protocol architecture
+- [Tokens](https://docs.infinifi.xyz/dev-docs/tokens.md): Protocol token implementations
+- [LockedPositionToken.sol](https://docs.infinifi.xyz/dev-docs/tokens/locked-position-token.md): liUSD-xw - Locked position tokens
+- [ReceiptToken.sol](https://docs.infinifi.xyz/dev-docs/tokens/receipt-token.md): iUSD - Protocol deposit receipt token
+- [StakedToken.sol](https://docs.infinifi.xyz/dev-docs/tokens/staked-token.md): siUSD - Staked position token
+- [infiniFi Docs Hub](https://docs.infinifi.xyz/index.md): Welcome to infiniFi - amplified DeFi returns through fractional reserve banking
+- [Oracles](https://docs.infinifi.xyz/oracles.md): Oracle infrastructure powering infiniFi's price feeds
+- [Pendle Liquidity Transfer](https://docs.infinifi.xyz/pendle-liquidity-transfer.md): Walkthrough for Pendle liquidity providers migrating to infiniFi
+- [Research](https://docs.infinifi.xyz/research.md): Deep dives into DeFi mechanisms and infiniFi's approach
+- [Risk Assessment Framework](https://docs.infinifi.xyz/risk-assessment-framework.md): How infiniFi evaluates and manages protocol risk
+- [Risk Disclosures](https://docs.infinifi.xyz/risk-disclosures.md): Risk scenarios covering bank runs, underlying protocol losses, bad debt, yield changes, and market downturns.
+- [Slashing mechanics](https://docs.infinifi.xyz/slashing-mechanics.md): How infiniFi applies realized losses to Locked-iUSD before losses reach senior depositors.
+- [Vaults](https://docs.infinifi.xyz/vaults.md): Current infiniFi vault data
+- [Whitepaper](https://docs.infinifi.xyz/whitepaper.md): The Fractional Reserve Stablecoin: The Natural Evolution of Modern Banking
+
+## Optional
+
+- [GitHub](https://github.com/InfiniFi-Labs)
+- [Discord](https://discord.gg/infinifi)
